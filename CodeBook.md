@@ -1,4 +1,4 @@
-# Getting and Cleaning Data Project
+# Getting and Cleaning Data - Project
 1. Read "features.txt" to variable "features"
 2. Read "activity_labels.txt" to variable "ActLabels"
 3. Read "X_train.txt" and store it in a dataframe "X_train"
@@ -10,5 +10,5 @@
 9. Merge "train" and "test" dataframe using the rbind command, and store it in a dataframe called "FullData"
 10. Using the "grep" command select the column names from "FullData" that has either "mean" or "std" as part of the column string
 11. Use the activity labels stored in "ActLabels" as a lookup for the Activity codes in the "FullData", and assign the appropritae descriptive activity names.
-12. Create a second, independent dataset with the average of each variable for each activity and subject using the "group_by" and "summarize_each" functions.
-
+12. Create a second, independent dataset called "tidyData" with the average of each variable for each activity and subject using the "group_by" and "summarize_each" functions.
+13. Export the "tidyData" dataframe to the file "tidyData.txt"
